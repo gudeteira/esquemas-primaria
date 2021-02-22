@@ -1,0 +1,28 @@
+# 3. O lugar onde vivimos
+## O goberno do municipio
+  - Concello
+    - A alcaldesa ou o alcalde dirixe o goberno municipal
+    - As concelleiras e concelleiros axudan á alcaldesa ou alcalde    
+    - O pleno municipal
+      - Alcaldesa ou alcalde e as concelleiras ou concelleiros
+      - Aproban ordenanzas minicipais
+        - Normas que debemos cumprir
+    - O goberno municipal
+      - Alcaldesa ou alcalde e as concelleiras ou concelleiros
+      - Aplica as ordenanzas municipais
+    - Fórmase cada 4 anos nas eleccións municipais
+  - Servizos municipais
+    - As concelleiras e concelleiros organizan
+    - As empregadas e empregados municipais ocúpanse de facer os traballos
+      - Servizos de protección
+        - Bombeiros
+        - Policía local
+      - Saneamento
+        - Recollida de residuos
+        - Limpeza de rúas
+      - Transporte
+        - Horarios transporte
+        - Distribución das paradas
+      - Culturais e de ocio
+        - Bibliotecas
+        - Piscinas

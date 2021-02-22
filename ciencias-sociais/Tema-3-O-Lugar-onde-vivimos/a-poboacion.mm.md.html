@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.3.1"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.2"></script><script>((getMarkmap, getOptions, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', getOptions == null ? void 0 : getOptions(), data);
+      })(() => window.markmap,null,{"t":"heading","d":1,"p":{},"v":"3. O lugar onde vivimos","c":[{"t":"heading","d":2,"p":{},"v":"A poboación","c":[{"t":"list_item","d":4,"p":{},"v":"Según a localidade na que viven","c":[{"t":"list_item","d":6,"p":{},"v":"Rural","c":[{"t":"list_item","d":8,"p":{},"v":"Viven nas aldeas"}]},{"t":"list_item","d":6,"p":{},"v":"Urbana","c":[{"t":"list_item","d":8,"p":{},"v":"Viven nas cidades e nas vilas"}]}]},{"t":"list_item","d":4,"p":{},"v":"Grupos de poboación segundo a idade","c":[{"t":"list_item","d":6,"p":{},"v":"Nova","c":[{"t":"list_item","d":8,"p":{},"v":"Menores de 15 anos"}]},{"t":"list_item","d":6,"p":{},"v":"Adulta","c":[{"t":"list_item","d":8,"p":{},"v":"Entre 15 e 65 anos"}]},{"t":"list_item","d":6,"p":{},"v":"Anciá","c":[{"t":"list_item","d":8,"p":{},"v":"Máis de 65 anos"}]}]},{"t":"list_item","d":4,"p":{},"v":"A poboación cambia","c":[{"t":"list_item","d":6,"p":{},"v":"Natalidade","c":[{"t":"list_item","d":8,"p":{},"v":"Nenas e nenos que nacen nun ano"}]},{"t":"list_item","d":6,"p":{},"v":"Mortalidade","c":[{"t":"list_item","d":8,"p":{},"v":"Persoas que morren nun ano"}]},{"t":"list_item","d":6,"p":{},"v":"Inmigrantes","c":[{"t":"list_item","d":8,"p":{},"v":"Son os que veñen"}]},{"t":"list_item","d":6,"p":{},"v":"Emigrantes","c":[{"t":"list_item","d":8,"p":{},"v":"Son os que se van"}]}]}]}]})</script>
+</body>
+</html>

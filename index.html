@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Esquemas Primaria!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
+  <style>
+    iframe {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .modal-close {
+      background-color: rgba(10, 10, 10, 0.2);
+    }
+
+
+    .modal.modal-full-screen .modal-content {
+      /* from https://postare.github.io/bulma-modal-fx/*/
+      width: 100%;
+      height: 100%;
+      max-height: 100vh;
+      margin: 0;
+      background-color: #fff;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="section">
+    <div class="columns">
+      <div class="column is-one-quarter ">
+        <aside id="menu" class="menu ">
+          <ul>
+            <p class="menu-label is-uppercase has-text-weight-bold">ciencias sociais</p>
+
+            <ul class="menu-list">
+              <li><a class="is-capitalized">Tema 3 O Lugar onde vivimos</a> </li>
+              <li>
+                <ul>
+                  <li><a class="is-capitalized"
+                      href="ciencias-sociais/Tema-3-O-Lugar-onde-vivimos/Tema-3-O-Lugar-onde-vivimos.mm.md.html"> Tema 3
+                      O Lugar onde vivimos</a></li>
+                  <li><a class="is-capitalized"
+                      href="ciencias-sociais/Tema-3-O-Lugar-onde-vivimos/a-poboacion.mm.md.html"> a poboacion</a></li>
+                  <li><a class="is-capitalized"
+                      href="ciencias-sociais/Tema-3-O-Lugar-onde-vivimos/goberno-do-municipio.mm.md.html"> goberno do
+                      municipio</a></li>
+                  <li><a class="is-capitalized" href="ciencias-sociais/Tema-3-O-Lugar-onde-vivimos/lugares.mm.md.html">
+                      lugares</a></li>
+                  <li><a class="is-capitalized"
+                      href="ciencias-sociais/Tema-3-O-Lugar-onde-vivimos/normas-de-circulacion.mm.md.html"> normas de
+                      circulacion</a></li>
+                </ul>
+              </li>
+            </ul>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+  <div class="modal modal-full-screen">
+    <div class="modal-background"></div>
+    <div class="modal-content ">
+
+    </div>
+    <button class="modal-close is-large is-success" aria-label="close"></button>
+
+  </div>
+
+  <script>
+
+    const modal = document.querySelector('.modal');
+    const links = document.querySelectorAll('a')
+    const closeModal = document.querySelector('.modal-close')
+    const modalContent = document.querySelector('.modal-content')
+    const iframe = document.createElement('iframe')
+    iframe.scrolling = "no";
+    iframe.classList.add('iframe')
+    iframe.frameBorder = 0;
+    iframe.style.border = "none";
+    iframe.style.overflow = "hidden";
+
+
+    links.forEach(link => {
+      if (link.href && link.href.length) {
+        link.addEventListener('click', function (e) {
+          e.preventDefault()
+          modal.classList.toggle('is-active')
+          iframe.src = e.target.href
+          modalContent.appendChild(iframe)
+        })
+      }
+
+    }
+    )
+
+    closeModal.addEventListener('click',
+      function () {
+        modal.classList.toggle('is-active')
+        modalContent.removeChild(iframe)
+      })
+
+  </script>
+
+</body>
+
+</html>

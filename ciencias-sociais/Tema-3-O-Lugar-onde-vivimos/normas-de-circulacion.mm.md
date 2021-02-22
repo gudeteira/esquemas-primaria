@@ -1,0 +1,25 @@
+# 3. O lugar onde vivimos
+## Normas de circulación
+  - Os peóns circulan pola beirarúa
+    - Cruzan a rúa polos pasos de peóns
+  - Os coches circulan pola calzada
+    - Hai que levar posto o cinto de seguridade
+  - Os ciclistas circulan polo carril bici (si hai)
+    - Hai que levar posto o casco
+  - Sinais de circulación
+    - Axentes de circulación
+      - Regulan o tráfico
+    - Marcas viarias
+      - Marcas debuxadas sobre a calzada
+        - Pasos de peóns
+    - Sinais verticais
+      - Advertencia
+        - Triangulares: `Zona frecuentada por ciclistas`
+      - Prohibición
+        - Redondas co bordo vermello: `Prohibida a circulación de peóns`
+      - Información
+        - Son de cor azul: `Paso de peóns`        
+      - Obriga
+        - Formas diferentes: `Parada obrigatoria` 
+    - Semáforos
+      - Organizan o derito a pasar mediante luces e sinais acústicos

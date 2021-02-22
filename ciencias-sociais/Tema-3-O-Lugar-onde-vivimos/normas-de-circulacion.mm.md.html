@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.3.1"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.2"></script><script>((getMarkmap, getOptions, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', getOptions == null ? void 0 : getOptions(), data);
+      })(() => window.markmap,null,{"t":"heading","d":1,"p":{},"v":"3. O lugar onde vivimos","c":[{"t":"heading","d":2,"p":{},"v":"Normas de circulación","c":[{"t":"list_item","d":4,"p":{},"v":"Os peóns circulan pola beirarúa","c":[{"t":"list_item","d":6,"p":{},"v":"Cruzan a rúa polos pasos de peóns"}]},{"t":"list_item","d":4,"p":{},"v":"Os coches circulan pola calzada","c":[{"t":"list_item","d":6,"p":{},"v":"Hai que levar posto o cinto de seguridade"}]},{"t":"list_item","d":4,"p":{},"v":"Os ciclistas circulan polo carril bici (si hai)","c":[{"t":"list_item","d":6,"p":{},"v":"Hai que levar posto o casco"}]},{"t":"list_item","d":4,"p":{},"v":"Sinais de circulación","c":[{"t":"list_item","d":6,"p":{},"v":"Axentes de circulación","c":[{"t":"list_item","d":8,"p":{},"v":"Regulan o tráfico"}]},{"t":"list_item","d":6,"p":{},"v":"Marcas viarias","c":[{"t":"list_item","d":8,"p":{},"v":"Marcas debuxadas sobre a calzada","c":[{"t":"list_item","d":10,"p":{},"v":"Pasos de peóns"}]}]},{"t":"list_item","d":6,"p":{},"v":"Sinais verticais","c":[{"t":"list_item","d":8,"p":{},"v":"Advertencia","c":[{"t":"list_item","d":10,"p":{},"v":"Triangulares: <code>Zona frecuentada por ciclistas</code>"}]},{"t":"list_item","d":8,"p":{},"v":"Prohibición","c":[{"t":"list_item","d":10,"p":{},"v":"Redondas co bordo vermello: <code>Prohibida a circulación de peóns</code>"}]},{"t":"list_item","d":8,"p":{},"v":"Información","c":[{"t":"list_item","d":10,"p":{},"v":"Son de cor azul: <code>Paso de peóns</code>"}]},{"t":"list_item","d":8,"p":{},"v":"Obriga","c":[{"t":"list_item","d":10,"p":{},"v":"Formas diferentes: <code>Parada obrigatoria</code>"}]}]},{"t":"list_item","d":6,"p":{},"v":"Semáforos","c":[{"t":"list_item","d":8,"p":{},"v":"Organizan o derito a pasar mediante luces e sinais acústicos"}]}]}]}]})</script>
+</body>
+</html>

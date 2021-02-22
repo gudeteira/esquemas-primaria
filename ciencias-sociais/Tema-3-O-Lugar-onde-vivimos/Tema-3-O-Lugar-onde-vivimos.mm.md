@@ -1,0 +1,126 @@
+# 3. O lugar onde vivimos
+## Lugares
+- [Aldeas](https://upload.wikimedia.org/wikipedia/commons/e/eb/Salvora_e_Agui%C3%B1o.jpg "Aldeas")
+  - Localidades pequenas
+    - Casas baixas con horta (`unifamiliares`)
+    - Poucos habitantes
+    - Habitantes traballan na natureza
+      * Agrigultura
+      * Pesca
+      * Gandaría
+    - Non hai moitos servizos
+- Vilas
+  - Localidades medianas
+    - Bastantes habitantes
+    - As casas son baixas e teñen edificios de pouca altura
+    - Traballan  nos servizos e sobre todo na industria da zona
+- Tipos de aldeas e vilas
+  - Á beira dun camiño
+    - Teñen unha rúa principal
+    - As casas agrúpanse á beira dela
+    - Localízanse nas chairas   
+  - Arredor dunha praza
+    - As rúas saen da praza
+    - As casas están agrupadas
+    - Son medianas
+    - Localízanse nas chairas
+  - Casas illadas
+    - Están formadas por casas separadas
+    - Localízanse nas montañas
+  - De porto de mar
+    - As casas amoréanse arredor do porto
+    - A vida xira arredor do porto
+- Cidades
+  - Localidades grandes
+  - Os edificios teñen máis de 5 pisos de altura
+  - As rúas son largas e longas. As de maior amplitude chámanse avenidas
+  - Hai moitos servizos    
+  - As zonas da cidade
+    - Centro histórico
+      - Zona máis antinga da cidade
+      - Rúas estreitas
+      - Museos e monumentos 
+    - O ensanche
+      - Arrodea ao centro
+      - Rúas largas e rectas
+      - Edificios altos
+    - A periferia
+      - Zona moderna
+      - Arrode ao ensanche
+      - Vivendas, centros comerciasis e polígonos industrias
+
+## A poboación
+  - Según a localidade na que viven
+    - Rural
+      - Viven nas aldeas
+    - Urbana
+      - Viven nas cidades e nas vilas
+  - Grupos de poboación segundo a idade
+    - Nova
+      - Menores de 15 anos
+    - Adulta
+      - Entre 15 e 65 anos
+    - Anciá
+      - Máis de 65 anos
+  - A poboación cambia
+    - Natalidade
+      - Nenas e nenos que nacen nun ano
+    - Mortalidade
+      - Persoas que morren nun ano
+    - Inmigrantes
+      - Son os que veñen
+    - Emigrantes
+      - Son os que se van
+
+## O goberno do municipio
+  - Concello
+    - A alcaldesa ou o alcalde dirixe o goberno municipal
+    - As concelleiras e concelleiros axudan á alcaldesa ou alcalde    
+    - O pleno municipal
+      - Alcaldesa ou alcalde e as concelleiras ou concelleiros
+      - Aproban ordenanzas minicipais
+        - Normas que debemos cumprir
+    - O goberno municipal
+      - Alcaldesa ou alcalde e as concelleiras ou concelleiros
+      - Aplica as ordenanzas municipais
+    - Fórmase cada 4 anos nas eleccións municipais
+  - Servizos municipais
+    - As concelleiras e concelleiros organizan
+    - As empregadas e empregados municipais ocúpanse de facer os traballos
+      - Servizos de protección
+        - Bombeiros
+        - Policía local
+      - Saneamento
+        - Recollida de residuos
+        - Limpeza de rúas
+      - Transporte
+        - Horarios transporte
+        - Distribución das paradas
+      - Culturais e de ocio
+        - Bibliotecas
+        - Piscinas
+
+## Normas de circulación
+  - Os peóns circulan pola beirarúa
+    - Cruzan a rúa polos pasos de peóns
+  - Os coches circulan pola calzada
+    - Hai que levar posto o cinto de seguridade
+  - Os ciclistas circulan polo carril bici (si hai)
+    - Hai que levar posto o casco
+  - Sinais de circulación
+    - Axentes de circulación
+      - Regulan o tráfico
+    - Marcas viarias
+      - Marcas debuxadas sobre a calzada
+        - Pasos de peóns
+    - Sinais verticais
+      - Advertencia
+        - Triangulares: `Zona frecuentada por ciclistas`
+      - Prohibición
+        - Redondas co bordo vermello: `Prohibida a circulación de peóns`
+      - Información
+        - Son de cor azul: `Paso de peóns`        
+      - Obriga
+        - Formas diferentes: `Parada obrigatoria` 
+    - Semáforos
+      - Organizan o derito a pasar mediante luces e sinais acústicos

@@ -1,0 +1,13 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+files=$(git diff --cached --name-only --diff-filter=ACMR "*.mm.md")
+
+for f in $files
+do
+    echo "PRECOMMIT: exportando ${f} a html"
+    markmap ${f} --no-open -o ${f}.html    
+    git add ${f}.html  
+done
+
+
