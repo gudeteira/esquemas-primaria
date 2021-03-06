@@ -1,0 +1,16 @@
+{
+    "search.exclude": {
+        "**/dist": true,
+        "**/node_modules": true,
+        "**/out": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/out": true
+    },
+    "files.insertFinalNewline": true,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+}

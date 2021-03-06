@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Debug build index",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/build-index.js",
+            "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v12.18.4/bin/node"
+        }
+    ]
+}
