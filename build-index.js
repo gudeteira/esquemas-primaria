@@ -24,14 +24,14 @@ async function main() {
 
 function buildTemplate(data = {}) {
     return '<ul>' + Object.keys(data).map(id => {
-        return `<p class="menu-label is-uppercase has-text-weight-bold">${id}</p>
+        return `<p class="menu-label is-uppercase has-text-weight-bold" style="color: #8FB9A8;">${id}</p>
     
         ${Object.keys(data[id]).map(child => {
 
-            return `<ul class="menu-list"><li><a class="is-capitalized">${child}</a> <li>
+            return `<ul class="menu-list"><li><span class="is-capitalized has-text-weight-bold" style="color: #FCD0BA;">${child}</span> <li>
                 <ul>
                     ${data[id][child].map(node => {
-                return `<li><a class="is-capitalized" data-rel-mm="${node.file.path}" href="${node.file.path}"> ${node.name}</a></li>`
+                        return `<li><a class="is-capitalized" style="color: #F1828D;" data-rel-mm="${node.file.path}" href="${node.file.path}"> ${node.name}</a></li>`
 
             }).join('')}
                 </ul>
