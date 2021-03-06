@@ -10,4 +10,6 @@ do
     git add ${f}.html  
 done
 
+node build-index.js  
+
 
