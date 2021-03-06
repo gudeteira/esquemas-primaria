@@ -46,5 +46,5 @@
       - Edificios altos
     - A periferia
       - Zona moderna
-      - Arrode ao ensanche
+      - Arrodea ao ensanche
       - Vivendas, centros comerciasis e polígonos industrias
