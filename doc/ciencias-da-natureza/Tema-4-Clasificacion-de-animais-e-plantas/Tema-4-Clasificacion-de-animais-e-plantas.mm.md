@@ -4,8 +4,12 @@
   - esqueleto interno
     - formado por ósos
     - a peza central e a columna vertebral
-  - o seu corpo dividese en cabeza,tronco e rabo
-  - teñen extremidades que saen do corpo. Segundo o medio no que se desprazan:
+  - o seu corpo dividese en
+    - cabeza
+    - tronco
+    - rabo
+  - teñen extremidades que saen do corpo.
+   Segundo o medio no que se desprazan:
     - patas
     - aletas
     - ás
