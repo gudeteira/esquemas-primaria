@@ -5,11 +5,10 @@
   "main": "index.html",
   "license": "MIT",
   "devDependencies": {
-    "husky": "^5.0.9",
     "node-html-parser": "^2.1.0"
   },
   "private": true,
   "scripts": {
-    "postinstall": "husky install"
+    "build": "node build-index.js"
   }
 }

@@ -1,10 +1,10 @@
 const HTMLParser = require('node-html-parser')
 const { promises: fs } = require("fs");
-const rootFolder = './src/'
+const DOC_ROOT = './doc/'
 
 async function main() {
     const parseHTML = HTMLParser.parse
-    const files = await getFiles(rootFolder, /\.md*$/)
+    const files = await getFiles(DOC_ROOT, /\.md*$/)
     const index = await fs.readFile(__dirname + '/index.html')
     const root = parseHTML(index.toString(), {
         script: true
@@ -16,7 +16,7 @@ async function main() {
         esquemas.appendChild(`<pre data-mm="${file.path}"> ${md.toString()}</pre>\n`)
     }
 
-    root.querySelector('#menu').set_content(buildTemplate(getTree(files), rootFolder))
+    root.querySelector('#menu').set_content(buildTemplate(getTree(files), DOC_ROOT))
 
     await fs.writeFile('index.html', root.toString(), 'utf8')
     console.log('index.html actualizado')
@@ -42,7 +42,7 @@ function buildTemplate(data = {}) {
 }
 
 
-function getTree(files = [], ignorePath = './src/') {
+function getTree(files = [], ignorePath = DOC_ROOT) {
     let data = {}
     files.forEach(file => {
         const dirs = file.path.replace(ignorePath, '').split('/').map(d => d.split('-').join(' ').trim())
@@ -84,7 +84,7 @@ function getTree(files = [], ignorePath = './src/') {
 }
 
 
-async function getFiles(path = "./src/", filter = /\.html*$/) {
+async function getFiles(path = DOC_ROOT, filter = /\.html*$/) {
 
     const entries = await fs.readdir(path, { withFileTypes: true })
 
